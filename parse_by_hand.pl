@@ -1,7 +1,6 @@
 #!/usr/bin/perl -CSDA
 
 use utf8; 
-use strict; 
 use Modern::Perl qw{2017}; 
 no warnings qw{uninitialized numeric}; 
 no autovivification qw{fetch store exists delete}; 
@@ -9,9 +8,6 @@ use Carp;
 use Data::Dumper; 
 use Config; 
 use Scalar::Util qw{looks_like_number}; 
-use POSIX qw{strftime mktime}; 
-use Time::Local; 
-use Digest::MD5 qw{md5}; 
 use Encode; 
 
 # Liczby powinny być typu "double", czyli mieć 15 znaczących cyfr. Zatem najmniejszą liczbą jaką
