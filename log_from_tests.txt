@@ -1,0 +1,96 @@
+
+
+
+
+test file "data_huge.txt", program "parse_by_hand.pl" 
+
+file size: 6,6M	data_huge.txt
+timing:
+
+real	0m3,434s
+user	0m3,382s
+sys	0m0,057s
+
+
+
+
+test file "data_huge.txt", program "parse_by_marpa.pl" 
+
+file size: 6,6M	data_huge.txt
+timing:
+
+real	0m10,125s
+user	0m9,799s
+sys	0m0,300s
+
+
+
+
+test file "data_more.txt", program "parse_by_hand.pl" 
+
+file size: 3,3M	data_more.txt
+timing:
+
+real	0m1,782s
+user	0m1,768s
+sys	0m0,016s
+
+
+
+
+test file "data_more.txt", program "parse_by_marpa.pl" 
+
+file size: 3,3M	data_more.txt
+timing:
+
+real	0m5,223s
+user	0m5,043s
+sys	0m0,183s
+
+
+
+
+test file "data_medi.txt", program "parse_by_hand.pl" 
+
+file size: 1,5M	data_medi.txt
+timing:
+
+real	0m0,787s
+user	0m0,775s
+sys	0m0,013s
+
+
+
+
+test file "data_medi.txt", program "parse_by_marpa.pl" 
+
+file size: 1,5M	data_medi.txt
+timing:
+
+real	0m2,244s
+user	0m2,202s
+sys	0m0,042s
+
+
+
+
+test file "data_tiny.txt", program "parse_by_hand.pl" 
+
+file size: 4,0K	data_tiny.txt
+timing:
+
+real	0m0,030s
+user	0m0,030s
+sys	0m0,000s
+
+
+
+
+test file "data_tiny.txt", program "parse_by_marpa.pl" 
+
+file size: 4,0K	data_tiny.txt
+timing:
+
+real	0m0,103s
+user	0m0,091s
+sys	0m0,012s

@@ -6,10 +6,10 @@ The problem was to parse such a simple language described here:
 
 https://github.com/leszekdubiel/lists-and-trees
 
-I have prepaired Marpa grammar and simple perl program. 
+There are two programs `parse_by_hand.pl` and `parse_by_marpa.pl`. In my tests Marpa runs 3 times slower than
+regular expresssion. This is not bad escpecially that I don't use XS and there are some problem you wouldn't
+be able to solve by regular expressions only. 
 
-When fed with 3MB file Marpa runs 8 seconds, while handcrafted solution with regexes in perl5 takes 1 seconds. 
-
-There is another comparison discussed here: http://blogs.perl.org/users/jeffrey_kegler/2011/11/marpa-v-perl-regexes-some-numbers.html . 
+More to read: http://blogs.perl.org/users/jeffrey_kegler/2011/11/marpa-v-perl-regexes-some-numbers.html . 
 
 

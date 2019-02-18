@@ -1,0 +1,16 @@
+	(
+ 		nodeA (Info "this is node A") (
+ 			nodeB (Info "This is node B, parent is A") ()
+ 			nodeC (Info "This is node C, has 3 children") (
+ 				nodeD (X +4.5 Y -5.0) ()
+ 				nodeE (X +4.9 Y -9.0) ()
+ 				nodeF (X +2.1 Y -12.0) ()
+ 			)
+ 			nodeG (Info "This is child G of node A") ()
+ 		)
+ 		nodeB (Info "This is node B") ()
+ 		nodeA (Info "this is another with name A") (
+ 			nodeP () ()
+ 			nodeQ () ()
+ 		)	
+ 	)
